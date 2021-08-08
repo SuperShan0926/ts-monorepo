@@ -1,0 +1,16 @@
+{
+    "extends": "./tsconfig.build.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {},
+        "noEmit": true
+    },
+    "includes": ["packages/*"],
+    "baseUrl": ".",
+
+    "paths": {
+        /* Redefine the root path aliases relative to this package. */
+        "@salary/*": ["packages/*/src"],
+        "@hooks/*": ["packages/cra/src/hooks/*"]
+    }
+}

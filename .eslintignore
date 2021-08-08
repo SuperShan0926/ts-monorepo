@@ -1,0 +1,10 @@
+node_modules
+
+dist
+build
+
+
+packages/cra/config-overrides.js
+.eslintrc.js
+*.sepc.ts
+jest.config.ts
