@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@salary/components/*": ["../../packages/components/src/*"],
+            "@salary/*": ["../../packages/*/src"],
+            "@components/*": ["./src/components/*"],
+            "@hooks/*": ["./src/hooks/*"]
+        }
+    }
+}

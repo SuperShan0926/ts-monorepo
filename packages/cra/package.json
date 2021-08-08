@@ -5,7 +5,8 @@
     "version": "1.0.0",
     "dependencies": {
         "react": "~17.0.0",
-        "react-dom": "~17.0.0"
+        "react-dom": "~17.0.0",
+        "@salary/autocomplete": "*"
     },
     "devDependencies": {
         "@types/node": "~14.0.23",
