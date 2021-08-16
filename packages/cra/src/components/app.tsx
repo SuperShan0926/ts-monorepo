@@ -1,7 +1,7 @@
 /** @format */
 
 import React from 'react'
-import { Button } from '@salary/autocomplete'
+import { Autocomplete } from '@salary/autocomplete'
 import { useTest1 } from '@hooks/test'
 
 export const App: () => JSX.Element = () => {
@@ -10,7 +10,7 @@ export const App: () => JSX.Element = () => {
     return (
         <div>
             <span>life is colorful{number}</span>
-            <Button />
+            <Autocomplete thredhold={100} />
         </div>
     )
 }
